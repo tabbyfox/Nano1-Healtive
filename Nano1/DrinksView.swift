@@ -36,7 +36,7 @@ struct DrinksView: View {
                         .cornerRadius(UIScreen.main.bounds.width / 2.4)
                 })
                 
-                Text("Total Consumtion: \(total) ml.")
+                Text("Total Consumption: \(total) ml.")
                     .fontWeight(.heavy)
                     .font(.system(size: 25))
                     .multilineTextAlignment(.center)

@@ -58,7 +58,7 @@ struct FoodsView: View {
                         .cornerRadius(UIScreen.main.bounds.width / 3)
                 })
                 
-                Text("Please add today's food consumtion.")
+                Text("Please add today's food consumption.")
                     .fontWeight(.heavy)
                     .font(.system(size: 21))
                     .multilineTextAlignment(.center)

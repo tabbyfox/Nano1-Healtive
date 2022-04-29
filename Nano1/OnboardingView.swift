@@ -13,8 +13,8 @@ struct OnboardingView: View {
     
     var body: some View{
         TabView{
-            PageView(imageName: "eatFood", title: "Track What You Consume!", subTitle: "Start tracking the content of the food that you eat everyday.", showDismissButton: false, shouldShowOnBoarding: $shouldShowOnBoarding)
-            PageView(imageName: "drinkWater", title: "Be The Well Heydrated Me!", subTitle: "You can also track your water consumtion too.", showDismissButton: true, shouldShowOnBoarding: $shouldShowOnBoarding)
+            PageView(imageName: "eatFood", title: "Track What You Eat!", subTitle: "Start tracking the content of the food that you eat everyday.", showDismissButton: false, shouldShowOnBoarding: $shouldShowOnBoarding)
+            PageView(imageName: "drinkWater", title: "Be The Well Heydrated Me!", subTitle: "You can also track how much water you drink.", showDismissButton: true, shouldShowOnBoarding: $shouldShowOnBoarding)
         }
         .tabViewStyle(PageTabViewStyle())
     }
