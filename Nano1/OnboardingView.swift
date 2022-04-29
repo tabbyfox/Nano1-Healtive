@@ -13,8 +13,8 @@ struct OnboardingView: View {
     
     var body: some View{
         TabView{
-            PageView(imageName: "eatFood", title: "Placeholder1", subTitle: "loren onaing maifa, asdnfi, yaoufha, ajiesnafm ,sf aienus, hanati, fnai, fniiefa, fsnienk, disfienlm, malifank, nfsienf.", showDismissButton: false, shouldShowOnBoarding: $shouldShowOnBoarding)
-            PageView(imageName: "drinkWater", title: "Placeholder2", subTitle: "Miyafnk, jidf, fnseif, snfial, faidasf, snafs, fmaidnfa, asdnfia, naidfa, nfaio,fnasnfi, anisfda, fnaisdf, fanisdf, nsf.", showDismissButton: true, shouldShowOnBoarding: $shouldShowOnBoarding)
+            PageView(imageName: "eatFood", title: "Track What You Consume!", subTitle: "Start tracking the content of the food that you eat everyday.", showDismissButton: false, shouldShowOnBoarding: $shouldShowOnBoarding)
+            PageView(imageName: "drinkWater", title: "Be The Well Heydrated Me!", subTitle: "You can also track your water consumtion too.", showDismissButton: true, shouldShowOnBoarding: $shouldShowOnBoarding)
         }
         .tabViewStyle(PageTabViewStyle())
     }
@@ -36,13 +36,12 @@ struct PageView : View {
             Text(title)
                 .font(Font.custom("Ding Dong", size: 32))
                 .fontWeight(.heavy)
-                .position(x: UIScreen.main.bounds.midX, y: UIScreen.main.bounds.minY)
 //                .font(.system(size: 32))
-                .frame(width: UIScreen.main.bounds.width, height: 60)
             Text(subTitle)
                 .font(.system(size: 21))
                 .fontWeight(.medium)
-                .position(x: UIScreen.main.bounds.midX, y: UIScreen.main.bounds.minY)
+                .multilineTextAlignment(.center)
+                .padding()
             
             if showDismissButton {
                 Button(action: {
@@ -50,12 +49,13 @@ struct PageView : View {
                 }, label: {
                     Text("Get Started")
                         .fontWeight(.bold)
-                        .frame(width: 300, height: 60)
+                        .frame(width: 240, height: 40)
                         .foregroundColor(.white)
                         .background(.blue)
                         .cornerRadius(25.0)
                 })
-                .position(x: UIScreen.main.bounds.midX, y: UIScreen.main.bounds.minY)
+                .padding()
+
             }
         }
     }

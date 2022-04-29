@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E9C25D02819808F00A7C612 /* Nano1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nano1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9C25D02819808F00A7C612 /* Nano1-Healtive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano1-Healtive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9C25D32819808F00A7C612 /* Nano1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano1App.swift; sourceTree = "<group>"; };
 		8E9C25D52819808F00A7C612 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E9C25D72819808F00A7C612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		8E9C25D12819808F00A7C612 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E9C25D02819808F00A7C612 /* Nano1.app */,
+				8E9C25D02819808F00A7C612 /* Nano1-Healtive.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E9C25CF2819808F00A7C612 /* Nano1 */ = {
+		8E9C25CF2819808F00A7C612 /* Nano1-Healtive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E9C25DE2819808F00A7C612 /* Build configuration list for PBXNativeTarget "Nano1" */;
+			buildConfigurationList = 8E9C25DE2819808F00A7C612 /* Build configuration list for PBXNativeTarget "Nano1-Healtive" */;
 			buildPhases = (
 				8E9C25CC2819808F00A7C612 /* Sources */,
 				8E9C25CD2819808F00A7C612 /* Frameworks */,
@@ -113,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = Nano1;
+			name = "Nano1-Healtive";
 			productName = Nano1;
-			productReference = 8E9C25D02819808F00A7C612 /* Nano1.app */;
+			productReference = 8E9C25D02819808F00A7C612 /* Nano1-Healtive.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8E9C25CB2819808F00A7C612 /* Build configuration list for PBXProject "Nano1" */;
+			buildConfigurationList = 8E9C25CB2819808F00A7C612 /* Build configuration list for PBXProject "Nano1-Healtive" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E9C25CF2819808F00A7C612 /* Nano1 */,
+				8E9C25CF2819808F00A7C612 /* Nano1-Healtive */,
 			);
 		};
 /* End PBXProject section */
@@ -309,6 +309,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Nano1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nano1-Healtive";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -340,6 +341,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Nano1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nano1-Healtive";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -362,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E9C25CB2819808F00A7C612 /* Build configuration list for PBXProject "Nano1" */ = {
+		8E9C25CB2819808F00A7C612 /* Build configuration list for PBXProject "Nano1-Healtive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E9C25DC2819808F00A7C612 /* Debug */,
@@ -371,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E9C25DE2819808F00A7C612 /* Build configuration list for PBXNativeTarget "Nano1" */ = {
+		8E9C25DE2819808F00A7C612 /* Build configuration list for PBXNativeTarget "Nano1-Healtive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E9C25DF2819808F00A7C612 /* Debug */,
