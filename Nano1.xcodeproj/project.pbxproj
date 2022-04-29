@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E9C25D42819808F00A7C612 /* Nano1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C25D32819808F00A7C612 /* Nano1App.swift */; };
+		8E9C25D62819808F00A7C612 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C25D52819808F00A7C612 /* ContentView.swift */; };
+		8E9C25D82819808F00A7C612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9C25D72819808F00A7C612 /* Assets.xcassets */; };
+		8E9C25DB2819808F00A7C612 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9C25DA2819808F00A7C612 /* Preview Assets.xcassets */; };
+		8E9C25E2281991B200A7C612 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C25E1281991B200A7C612 /* OnboardingView.swift */; };
+		8E9C25E4281992AD00A7C612 /* FoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C25E3281992AD00A7C612 /* FoodsView.swift */; };
+		8E9C25E6281992C400A7C612 /* DrinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C25E5281992C400A7C612 /* DrinksView.swift */; };
+		8E9C25E8281992D100A7C612 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C25E7281992D100A7C612 /* InfoView.swift */; };
+		8E9C25EB281AB32F00A7C612 /* MyFont1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E9C25EA281AB32F00A7C612 /* MyFont1.ttf */; };
+		8E9C25EE281ABFDC00A7C612 /* MyFont2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E9C25ED281ABFDC00A7C612 /* MyFont2.ttf */; };
+		8E9C25F3281AC7D200A7C612 /* Ding_Dong.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E9C25EF281AC4AD00A7C612 /* Ding_Dong.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E9C25D02819808F00A7C612 /* Nano1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nano1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9C25D32819808F00A7C612 /* Nano1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano1App.swift; sourceTree = "<group>"; };
+		8E9C25D52819808F00A7C612 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E9C25D72819808F00A7C612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E9C25DA2819808F00A7C612 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E9C25E1281991B200A7C612 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8E9C25E3281992AD00A7C612 /* FoodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsView.swift; sourceTree = "<group>"; };
+		8E9C25E5281992C400A7C612 /* DrinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksView.swift; sourceTree = "<group>"; };
+		8E9C25E7281992D100A7C612 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		8E9C25EA281AB32F00A7C612 /* MyFont1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyFont1.ttf; sourceTree = "<group>"; };
+		8E9C25EC281AB75500A7C612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8E9C25ED281ABFDC00A7C612 /* MyFont2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyFont2.ttf; sourceTree = "<group>"; };
+		8E9C25EF281AC4AD00A7C612 /* Ding_Dong.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ding_Dong.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E9C25CD2819808F00A7C612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E9C25C72819808F00A7C612 = {
+			isa = PBXGroup;
+			children = (
+				8E9C25D22819808F00A7C612 /* Nano1 */,
+				8E9C25D12819808F00A7C612 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9C25D12819808F00A7C612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E9C25D02819808F00A7C612 /* Nano1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E9C25D22819808F00A7C612 /* Nano1 */ = {
+			isa = PBXGroup;
+			children = (
+				8E9C25EC281AB75500A7C612 /* Info.plist */,
+				8E9C25E9281AB30A00A7C612 /* Fonts */,
+				8E9C25D72819808F00A7C612 /* Assets.xcassets */,
+				8E9C25D32819808F00A7C612 /* Nano1App.swift */,
+				8E9C25D52819808F00A7C612 /* ContentView.swift */,
+				8E9C25E1281991B200A7C612 /* OnboardingView.swift */,
+				8E9C25D92819808F00A7C612 /* Preview Content */,
+				8E9C25E3281992AD00A7C612 /* FoodsView.swift */,
+				8E9C25E5281992C400A7C612 /* DrinksView.swift */,
+				8E9C25E7281992D100A7C612 /* InfoView.swift */,
+			);
+			path = Nano1;
+			sourceTree = "<group>";
+		};
+		8E9C25D92819808F00A7C612 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E9C25DA2819808F00A7C612 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E9C25E9281AB30A00A7C612 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E9C25EF281AC4AD00A7C612 /* Ding_Dong.otf */,
+				8E9C25ED281ABFDC00A7C612 /* MyFont2.ttf */,
+				8E9C25EA281AB32F00A7C612 /* MyFont1.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E9C25CF2819808F00A7C612 /* Nano1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9C25DE2819808F00A7C612 /* Build configuration list for PBXNativeTarget "Nano1" */;
+			buildPhases = (
+				8E9C25CC2819808F00A7C612 /* Sources */,
+				8E9C25CD2819808F00A7C612 /* Frameworks */,
+				8E9C25CE2819808F00A7C612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nano1;
+			productName = Nano1;
+			productReference = 8E9C25D02819808F00A7C612 /* Nano1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E9C25C82819808F00A7C612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8E9C25CF2819808F00A7C612 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E9C25CB2819808F00A7C612 /* Build configuration list for PBXProject "Nano1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E9C25C72819808F00A7C612;
+			productRefGroup = 8E9C25D12819808F00A7C612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E9C25CF2819808F00A7C612 /* Nano1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E9C25CE2819808F00A7C612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9C25DB2819808F00A7C612 /* Preview Assets.xcassets in Resources */,
+				8E9C25EE281ABFDC00A7C612 /* MyFont2.ttf in Resources */,
+				8E9C25F3281AC7D200A7C612 /* Ding_Dong.otf in Resources */,
+				8E9C25D82819808F00A7C612 /* Assets.xcassets in Resources */,
+				8E9C25EB281AB32F00A7C612 /* MyFont1.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E9C25CC2819808F00A7C612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9C25E4281992AD00A7C612 /* FoodsView.swift in Sources */,
+				8E9C25E6281992C400A7C612 /* DrinksView.swift in Sources */,
+				8E9C25E2281991B200A7C612 /* OnboardingView.swift in Sources */,
+				8E9C25D62819808F00A7C612 /* ContentView.swift in Sources */,
+				8E9C25E8281992D100A7C612 /* InfoView.swift in Sources */,
+				8E9C25D42819808F00A7C612 /* Nano1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E9C25DC2819808F00A7C612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E9C25DD2819808F00A7C612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E9C25DF2819808F00A7C612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano1/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UTJQ74RD9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nano1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhe.Nano1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E9C25E02819808F00A7C612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano1/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UTJQ74RD9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nano1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhe.Nano1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E9C25CB2819808F00A7C612 /* Build configuration list for PBXProject "Nano1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9C25DC2819808F00A7C612 /* Debug */,
+				8E9C25DD2819808F00A7C612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9C25DE2819808F00A7C612 /* Build configuration list for PBXNativeTarget "Nano1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9C25DF2819808F00A7C612 /* Debug */,
+				8E9C25E02819808F00A7C612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E9C25C82819808F00A7C612 /* Project object */;
+}
